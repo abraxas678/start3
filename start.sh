@@ -9,7 +9,8 @@ echo "######  MAIN INSTALL SCRIPT ######"
 echo "##################################"
 echo "${NC}${GREY1}"
 echo "${BLUE1}### UPDATE SYSTEM FIRST (y/n) ###"
-x=1; while [[ x = "1" ]]
+x=1; 
+while [[ x = "1" ]]
 do
   printf "${BLUE3}>>> "; read myanswer
   if [[ $myanswer = "y" ]]
